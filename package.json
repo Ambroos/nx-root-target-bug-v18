@@ -2,13 +2,16 @@
   "name": "workspace-level-test",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "echo hi"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
     "@nx/js": "18.3.4",
     "nx": "18.3.4"
   },
+  "nx": {},
   "workspaces": [
     "packages/*"
   ]
